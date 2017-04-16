@@ -1,0 +1,150 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+element {
+}
+a.bordered-btn {
+    border: 1px solid #1C7B44;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #333;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.single-pricing-box {
+    text-align: center;
+}
+body {
+    color: #878787;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+html {
+    font-size: 10px;
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+.section-padding {
+  padding: 80px 0;
+}
+body {
+  color: #878787;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+h1,h2,h3,h4,h5,h6 {
+  color: #333;
+}
+.section-title h2 span {
+  color: #26A65B;
+}
+.single-pricing-box {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  transition: .3s;
+}
+h3 {
+}
+.single-pricing-box h3 {
+  text-transform: uppercase;
+}
+.pricing-icon {
+  font-size: 50px;
+  border-bottom: 20px;
+  transition: .3s;
+}
+.single-pricing-box:hover {
+    border-color: #218C4D;
+    box-shadow: 0 0 50px #ccc;
+}
+.pricing-icon img {
+  max-width: 92px;
+}
+.pricing-list {
+  text-align: left;
+  margin-bottom: 50px;
+}
+.pricing-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-left: 30px;
+    line-height: 28px;
+}
+.pricing-list ul li{
+    transition: .3s;
+}
+.pricing-list ul li:hover{
+    padding-left: 5px;
+}
+.pricing-list ul li:before{font-family: fontAwesome;content:"\f00c";color: #218C4D;padding-right: 12px;}
+.pricing-list ul li.off:before{content:"\f00d";color: #F36B6B;}
+.single-pricing-box h3.pricing-count {
+  text-transform: none;
+}
+a.bordered-btn {
+  border: 1px solid #1C7B44;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: #333;
+  transition: .3s;
+}
+a.bordered-btn:hover {
+    background: #26A65B;
+    color: #fff;
+}
+.single-pricing-box:hover .pricing-icon {
+    color: #26A65B;
+}
+.single-pricing-box:hover .pricing-icon img{opacity: .7;}
